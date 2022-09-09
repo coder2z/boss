@@ -1,4 +1,4 @@
-module boss
+module github.com/coder2z/boss
 
 go 1.19
 
