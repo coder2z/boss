@@ -27,8 +27,9 @@ func main() {
 
 	for {
 		fmt.Printf("运行中：%s \n", time.Now())
-		robotgo.KeyTap("right")
 		robotgo.Click()
-		time.Sleep(time.Second)
+		time.Sleep(time.Second / 2)
+		robotgo.KeyTap("right")
+		time.Sleep(2 * time.Second)
 	}
 }
